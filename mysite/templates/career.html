@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block title %}
+Booking
+{% endblock %}
+{% block content %}
+
+<h1 class="career text-center ">Career Form</h1>
+
+<hr>
+<div class="container w-50 p-3 text-start my-3 bg-info "  >
+
+ <form action="" method="POST">
+        {%csrf_token%}
+        {{ form.as_p}}
+        <input type="submit" value="Submit" onclick="alertsuccess()" class="btn btn-primary mb-4">
+        <script>
+            function alertsuccess(){
+               alert("submitted successfully")
+               };
+        </script>
+    </form>
+
+</div>
+
+{%endblock %}

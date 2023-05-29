@@ -1,0 +1,30 @@
+
+li:hover{
+background-color:#808080;
+border-radius:10px;
+border:1px solid white ;
+ }
+.content_page{
+background-color:#d3d3d3;
+}
+
+.about_image{
+width:500px;
+height:500px;
+margin-left:50%;
+
+}
+.about{
+width:100%;
+height:auto;
+border-radius:20px;
+background-color:none;
+
+}
+.newone{
+
+margin-top:-100px ;
+
+}
+
+
